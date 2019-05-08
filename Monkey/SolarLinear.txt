@@ -1,0 +1,104 @@
+04-25 07:38:54.051  2316  2327 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.lx.solarfragment/.LoginActivity bnds=[307,1648][582,2020]} from uid 10023
+04-25 07:39:09.573  2316  3566 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.lx.solarfragment/.LoginActivity} from uid 2000
+04-25 07:40:38.297  2316  2452 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.lx.solarfragment/.LoginActivity bnds=[1134,1614][1410,1986]} from uid 10023
+04-30 03:09:54.383  2316  2598 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.lx.solarfragment/.LoginActivity} from uid 2000
+04-30 03:13:08.015  2316  3225 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.lx.solarfragment/.LoginActivity} from uid 2000
+04-30 03:13:31.820  2316  3566 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.MainActivity (has extras)} from uid 10092
+04-30 03:13:34.852  2316  3566 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.MainActivity (has extras)} from uid 10092
+04-30 03:13:34.880  2316  2598 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.MainActivity (has extras)} from uid 10092
+05-05 02:15:11.612  2316  4396 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cwx.timebank/.MainActivity bnds=[307,2020][582,2392]} from uid 10023
+05-05 02:15:17.823  2316  4396 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cwx.timebank/.MainActivity} from uid 10023
+05-05 14:12:54.228  2316  3221 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cwx.timebank/.MainActivity bnds=[307,2020][582,2392]} from uid 10023
+05-05 14:14:05.023  2316  5817 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cwx.timebank/.MainActivity bnds=[307,2020][582,2392]} from uid 10023
+05-05 14:14:13.914  2316  3280 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cwx.timebank/.MainActivity} from uid 10023
+05-05 14:14:14.604  2316  2557 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.photos/.home.HomeActivity bnds=[582,1276][857,1648]} from uid 10023
+05-05 14:14:47.764  2316  3221 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.cwx.timebank/.MainActivity} from uid 2000
+05-05 14:16:55.817  2316  2557 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cwx.timebank/.MainActivity bnds=[307,2020][582,2392]} from uid 10023
+05-07 01:29:31.227  2316  3225 I ActivityManager: START u0 {act=android.intent.action.DELETE dat=package:com.cwx.timebank flg=0x10800000 cmp=com.google.android.packageinstaller/com.android.packageinstaller.UninstallerActivity (has extras)} from uid 10023
+05-07 01:29:33.161  2316 14843 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.lx.solarfragment/.LoginActivity} from uid 2000
+05-07 01:30:13.126  2316  3280 I ActivityManager: START u0 {act=android.intent.action.DELETE dat=package:com.cwx.timebank flg=0x10800000 cmp=com.google.android.packageinstaller/com.android.packageinstaller.UninstallerActivity (has extras)} from uid 10023
+05-07 01:30:30.137  2316  5817 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=me.tictok.linear/.WelcomeActivity bnds=[30,1242][306,1614]} from uid 10023
+05-07 01:30:30.403  2316  4396 I ActivityManager: START u0 {cmp=me.tictok.linear/.IntroActivity} from uid 10096
+05-07 01:31:05.675  2316  3232 I ActivityManager: START u0 {cmp=me.tictok.linear/.register.LoginActivity} from uid 10096
+05-07 01:31:33.518  2316  2557 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 01:31:48.697  2316  4641 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.AddSportsPlanActivity} from uid 10096
+05-07 01:32:06.547  2316  3225 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.AddSportsPlanActivity} from uid 10096
+05-07 01:32:15.620  2316  2557 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.ManageRecordActivity} from uid 10096
+05-07 01:32:45.292  2316  4641 I ActivityManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.google.android.packageinstaller cmp=com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity (has extras)} from uid 10096
+05-07 01:32:55.748  2316  2327 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 01:32:59.552  2316  6156 I ActivityManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.google.android.packageinstaller cmp=com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity (has extras)} from uid 10096
+05-07 01:33:04.341  2316  3232 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=me.tictok.linear/.WelcomeActivity bnds=[30,1242][306,1614]} from uid 10023
+05-07 01:33:04.752  2316  3272 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 02:01:06.035  2316  2558 I ActivityManager: START u0 {cmp=me.tictok.linear/.explore.FindContentActivity (has extras)} from uid 10096
+05-07 02:01:11.522  2316  3232 I ActivityManager: START u0 {cmp=me.tictok.linear/.explore.FindContentDetailsActivity (has extras)} from uid 10096
+05-07 02:01:20.473  2316  3280 I ActivityManager: START u0 {cmp=me.tictok.linear/.explore.SearchActivity} from uid 10096
+05-07 02:02:59.735  2316  3277 I ActivityManager: START u0 {flg=0x18000000 cmp=com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velvet.ui.settings.SettingsActivity (has extras)} from uid 10030
+05-07 02:03:38.233  2316 15388 I ActivityManager: START u0 {cmp=me.tictok.linear/.explore.FindContentDetailsActivity (has extras)} from uid 10096
+05-07 02:03:48.732  2316  2558 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.ChatActivity (has extras)} from uid 10096
+05-07 02:05:07.915  2316  3277 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.ChatActivity (has extras)} from uid 10096
+05-07 02:05:13.208  2316  3277 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.AddFriendsActivity} from uid 10096
+05-07 02:05:52.199  2316  2558 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.PersonalDataActivity} from uid 10096
+05-07 02:06:09.105  2316  3105 I ActivityManager: START u0 {act=android.intent.action.PICK dat=content://media/external/images/media typ=image/* cmp=com.google.android.apps.photos/.picker.external.ExternalPickerActivity} from uid 10096
+05-07 02:07:23.363  2316  2558 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.PersonalDataActivity} from uid 10096
+05-07 02:07:34.572  2316  3046 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.PersonalDataActivity} from uid 10096
+05-07 02:08:15.720  2316  3280 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.HealthDataActivity} from uid 10096
+05-07 02:08:23.145  2316  3046 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.PersonalDataActivity} from uid 10096
+05-07 02:08:29.954  2316 14843 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.SettingsActivity} from uid 10096
+05-07 02:08:36.045  2316  4641 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=me.tictok.linear/.WelcomeActivity bnds=[30,1242][306,1614]} from uid 10023
+05-07 02:08:36.111  2316  3105 I ActivityManager: START u0 {cmp=me.tictok.linear/.IntroActivity} from uid 10096
+05-07 02:08:38.472  2316  2558 I ActivityManager: START u0 {cmp=me.tictok.linear/.register.LoginActivity} from uid 10096
+05-07 02:09:08.518  2316  3105 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 02:09:12.655  2316  2558 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.PersonalDataActivity} from uid 10096
+05-07 02:10:52.638  2316  2557 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.lx.solarfragment/.LoginActivity bnds=[1134,1614][1410,1986]} from uid 10023
+05-07 02:11:04.498  2316  3280 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.MainActivity (has extras)} from uid 10092
+05-07 02:11:53.407  2316  3105 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.UpdateTaskActivity (has extras)} from uid 10092
+05-07 02:14:03.134  2316  5817 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.UpdateTaskActivity (has extras)} from uid 10092
+05-07 02:14:08.676  2316  6156 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.StartTimeActivity (has extras)} from uid 10092
+05-07 02:14:23.482  2316  2558 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.StartTimeActivity (has extras)} from uid 10092
+05-07 02:14:52.969  2316  5817 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.StartTimeActivity (has extras)} from uid 10092
+05-07 02:15:26.586  2316  5817 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.StartTimeActivity (has extras)} from uid 10092
+05-07 02:15:47.674  2316  5817 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.StartTimeActivity (has extras)} from uid 10092
+05-07 02:16:54.698  2316  5817 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.UpdateTaskActivity (has extras)} from uid 10092
+05-07 02:17:02.003  2316  6156 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.UpdateTaskActivity (has extras)} from uid 10092
+05-07 02:17:16.103  2316  6156 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.SettingActivity (has extras)} from uid 10092
+05-07 02:17:20.008  2316  3280 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.AddTaskActivity (has extras)} from uid 10092
+05-07 02:17:28.266  2316  5817 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.StartTimeActivity (has extras)} from uid 10092
+05-07 02:17:44.372  2316  5817 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.UpdateTaskActivity (has extras)} from uid 10092
+05-07 02:17:57.644  2316  3046 I ActivityManager: START u0 {cmp=com.example.lx.solarfragment/.StartTimeActivity (has extras)} from uid 10092
+05-07 02:25:52.875  2316  3046 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=me.tictok.linear/.WelcomeActivity bnds=[30,1242][306,1614]} from uid 10023
+05-07 02:25:53.016  2316  6156 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 02:26:02.054  2316  3105 I ActivityManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.google.android.packageinstaller cmp=com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity (has extras)} from uid 10096
+05-07 02:26:03.369  2316  2328 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 02:26:48.704  2316  2328 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.AddSportsPlanActivity} from uid 10096
+05-07 02:27:00.523  2316  7054 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=me.tictok.linear/.WelcomeActivity bnds=[30,1242][306,1614]} from uid 10023
+05-07 02:27:00.602  2316  7054 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 02:27:06.109  2316  2649 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.SettingsActivity} from uid 10096
+05-07 02:27:10.399  2316  7054 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=me.tictok.linear/.WelcomeActivity bnds=[30,1242][306,1614]} from uid 10023
+05-07 02:27:10.486  2316  7054 I ActivityManager: START u0 {cmp=me.tictok.linear/.IntroActivity} from uid 10096
+05-07 02:27:12.839  2316  2598 I ActivityManager: START u0 {cmp=me.tictok.linear/.register.LoginActivity} from uid 10096
+05-07 02:28:02.433  2316  3223 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 02:28:08.337  2316  3221 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.ManageRecordActivity} from uid 10096
+05-07 02:28:22.104  2316  3223 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.ManageRecordActivity} from uid 10096
+05-07 02:29:56.449  2316  3221 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.RecommendActivity (has extras)} from uid 10096
+05-07 02:29:59.311  2316  3221 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.CourseActivity} from uid 10096
+05-07 02:30:08.495  2316 13744 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.CourseActivity} from uid 10096
+05-07 02:30:24.819  2316  3272 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.ManageRecordActivity} from uid 10096
+05-07 02:33:34.463  2316  3277 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.RecommendActivity (has extras)} from uid 10096
+05-07 02:34:02.199  2316  3277 I ActivityManager: START u0 {cmp=me.tictok.linear/.sport.RecommendActivity (has extras)} from uid 10096
+05-07 02:34:21.373  2316  4601 I ActivityManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.google.android.packageinstaller cmp=com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity (has extras)} from uid 10096
+05-07 02:34:22.857  2316  2327 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 02:39:05.153  2316  3566 I ActivityManager: START u0 {cmp=me.tictok.linear/.explore.SearchActivity} from uid 10096
+05-07 02:39:41.576  2316  5817 I ActivityManager: START u0 {cmp=me.tictok.linear/.explore.FindContentDetailsActivity (has extras)} from uid 10096
+05-07 02:42:14.382  2316  3272 I ActivityManager: START u0 {cmp=me.tictok.linear/.explore.FindContentDetailsActivity (has extras)} from uid 10096
+05-07 02:47:53.951  2316  5817 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.ChatActivity (has extras)} from uid 10096
+05-07 02:47:56.704  2316  5817 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.PersonDetailActivity (has extras)} from uid 10096
+05-07 02:52:26.554  2316  3279 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.ChatActivity (has extras)} from uid 10096
+05-07 02:52:32.613  2316  5817 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.ChatActivity (has extras)} from uid 10096
+05-07 02:53:41.266  2316  2328 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.ChatActivity (has extras)} from uid 10096
+05-07 02:53:48.650  2316  5817 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=me.tictok.linear/.WelcomeActivity bnds=[30,1242][306,1614]} from uid 10023
+05-07 02:53:48.735  2316  3272 I ActivityManager: START u0 {cmp=me.tictok.linear/.MainActivity} from uid 10096
+05-07 02:53:55.656  2316  5817 I ActivityManager: START u0 {cmp=me.tictok.linear/.friends.AddFriendsActivity} from uid 10096
+05-07 02:54:13.781  2316  3279 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.MyfavouriteActivity} from uid 10096
+05-07 02:54:18.397  2316  3279 I ActivityManager: START u0 {cmp=me.tictok.linear/.explore.FindContentDetailsActivity} from uid 10096
+05-07 02:54:26.300  2316  3279 I ActivityManager: START u0 {cmp=me.tictok.linear/.me.SettingsActivity} from uid 10096
+05-07 02:55:14.2
