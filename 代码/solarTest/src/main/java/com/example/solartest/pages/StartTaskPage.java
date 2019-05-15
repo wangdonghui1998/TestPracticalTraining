@@ -14,6 +14,7 @@ import io.appium.java_client.android.AndroidElement;
 
 /**
  * Created by 王东慧 on 2019/5/8
+ * 开启任务页面
  */
 public class StartTaskPage {
     AndroidDriver driver;

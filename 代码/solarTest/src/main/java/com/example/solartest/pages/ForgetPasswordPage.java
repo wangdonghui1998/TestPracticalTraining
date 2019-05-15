@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.android.AndroidDriver;
 /**
  * Created by 王东慧 on 2019/5/8
+ * 忘记密码
  */
 public class ForgetPasswordPage {
     AndroidDriver driver;

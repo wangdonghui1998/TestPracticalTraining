@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 /**
  * Created by 王东慧 on 2019/5/9
+ * 开启任务
  */
 public class StartTaskTest extends BaseTest {
     @BeforeTest
@@ -22,7 +23,7 @@ public class StartTaskTest extends BaseTest {
     public void startTaskSuccess(){
         StartTaskPage st = new StartTaskPage(getDriver());
         st.startTask(2);
-        Assert.assertEquals(".StartTimeActivity",getDriver().currentActivity());
+        Assert.assertEquals(getDriver().currentActivity(),".StartTimeActivity");
     }
 
 }

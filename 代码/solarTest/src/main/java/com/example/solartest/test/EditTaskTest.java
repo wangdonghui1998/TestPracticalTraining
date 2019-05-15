@@ -1,22 +1,19 @@
 package com.example.solartest.test;
 
 import com.example.solartest.base.BaseTest;
-import com.example.solartest.pages.DeleteTaskPage;
+import com.example.solartest.pages.EditTaskPage;
 import com.example.solartest.pages.LoginPage;
+import com.example.solartest.pages.StartTaskPage;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
 /**
  * Created by 王东慧 on 2019/5/14
- * 删除
+ * 编辑任务
  */
-public class DeleteTaskTest extends BaseTest {
+public class EditTaskTest extends BaseTest {
     @BeforeTest
     public void login() throws InterruptedException {
         LoginPage login = new LoginPage(getDriver());
@@ -24,8 +21,8 @@ public class DeleteTaskTest extends BaseTest {
     }
 
     @Test
-    public void delete(){
-        DeleteTaskPage del = new DeleteTaskPage(getDriver());
-        del.deleteTask(1);
+    public void EditTaskSuccess(){
+        EditTaskPage edit = new EditTaskPage(getDriver());
+        edit.editTask(3,"newname","44");
     }
 }

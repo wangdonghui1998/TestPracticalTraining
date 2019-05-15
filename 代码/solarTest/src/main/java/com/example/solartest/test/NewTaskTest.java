@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 /**
  * Created by 王东慧 on 2019/5/8
+ * 新建任务
  */
 public class NewTaskTest extends BaseTest {
     @BeforeTest

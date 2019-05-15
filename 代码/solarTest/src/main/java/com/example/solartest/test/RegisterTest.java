@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 /**
  * Created by 王东慧 on 2019/5/8
+ * 注册
  */
 
 public class RegisterTest extends BaseTest {
@@ -17,7 +18,7 @@ public class RegisterTest extends BaseTest {
         RegisterPage reg=new RegisterPage(getDriver());
         reg.register("test1","15200000000",
                 "111@163.com","000000","000000");
-        Assert.assertEquals(".LoginActivity",getDriver().currentActivity());
+        Assert.assertEquals(getDriver().currentActivity(),".LoginActivity");
     }
 
     @Test
@@ -25,7 +26,7 @@ public class RegisterTest extends BaseTest {
         RegisterPage reg=new RegisterPage(getDriver());
         reg.register("","15200000000",
                 "111@163.com","000000","000000");
-        Assert.assertEquals(".RegisterActivity",getDriver().currentActivity());
+        Assert.assertEquals(getDriver().currentActivity(),".RegisterActivity");
     }
 
 }

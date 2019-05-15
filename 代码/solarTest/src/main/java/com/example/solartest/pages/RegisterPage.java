@@ -10,6 +10,7 @@ import io.appium.java_client.android.AndroidDriver;
 
 /**
  * Created by 王东慧 on 2019/5/8
+ * 注册页面
  */
 
 public class RegisterPage {
