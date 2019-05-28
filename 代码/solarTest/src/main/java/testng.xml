@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<!-- 12 -->
+<!-- 共13个测试用例 -->
 <suite name="solar-test" verbose="1">
     <test name="solar-test">
         <classes>

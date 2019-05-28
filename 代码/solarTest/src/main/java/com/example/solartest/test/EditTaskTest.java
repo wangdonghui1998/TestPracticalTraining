@@ -1,11 +1,9 @@
 package com.example.solartest.test;
 
 import com.example.solartest.base.BaseTest;
-import com.example.solartest.pages.EditTaskPage;
 import com.example.solartest.pages.LoginPage;
-import com.example.solartest.pages.StartTaskPage;
+import com.example.solartest.pages.TaskPage;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -22,7 +20,7 @@ public class EditTaskTest extends BaseTest {
 
     @Test
     public void EditTaskSuccess(){
-        EditTaskPage edit = new EditTaskPage(getDriver());
-        edit.editTask(3,"newname","44");
+        TaskPage taskPage = new TaskPage(getDriver());
+        taskPage.editTask(3,"newname","44");
     }
 }

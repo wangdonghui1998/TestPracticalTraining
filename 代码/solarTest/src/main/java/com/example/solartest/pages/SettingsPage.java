@@ -15,10 +15,8 @@ import io.appium.java_client.android.AndroidDriver;
 public class SettingsPage {
     AndroidDriver driver;
     Actions action;
-   @FindBy(id = "com.example.lx.solarfragment:id/btn_more")
-   WebElement btn_more;
-   @FindBy(id = "com.example.lx.solarfragment:id/ll_set_up")
-   WebElement btn_set_up;
+    IndexPage index;
+
    @FindBy(id = "com.example.lx.solarfragment:id/sing1")
    WebElement btn_sing;
    @FindBy(id = "android:id/button3")
@@ -29,11 +27,11 @@ public class SettingsPage {
         this.driver=driver;
         PageFactory.initElements(driver,this);
         action = new Actions(driver);
+        index = new IndexPage(driver);
     }
 
     public void settings(){
-        action.click(btn_more);
-        action.click(btn_set_up);
+        index.click("setting");
         action.click(btn_sing);
         action.click(btn_zhd);
     }

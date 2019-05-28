@@ -2,7 +2,7 @@ package com.example.solartest.test;
 
 import com.example.solartest.base.BaseTest;
 import com.example.solartest.pages.LoginPage;
-import com.example.solartest.pages.StartTaskPage;
+import com.example.solartest.pages.TaskPage;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
@@ -21,8 +21,8 @@ public class StartTaskTest extends BaseTest {
 
     @Test
     public void startTaskSuccess(){
-        StartTaskPage st = new StartTaskPage(getDriver());
-        st.startTask(2);
+        TaskPage taskPage = new TaskPage(getDriver());
+        taskPage.startTask(2);
         Assert.assertEquals(getDriver().currentActivity(),".StartTimeActivity");
     }
 
