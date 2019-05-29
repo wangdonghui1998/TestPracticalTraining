@@ -3,8 +3,8 @@ package com.example.solartest.base;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +19,7 @@ public class BaseTest {
     public AndroidDriver<WebElement> getDriver(){
         return this.driver;
     }
-    @BeforeSuite
+    @BeforeClass
     public void startApp() throws IOException {
         File classpathRoot = new File(System.getProperty("user.dir"));
         File appDir = new File(classpathRoot+"/app");
@@ -37,7 +37,7 @@ public class BaseTest {
     }
 
 
-    @AfterSuite
+    @AfterClass
     public void tearDown() {
         driver.quit();
     }

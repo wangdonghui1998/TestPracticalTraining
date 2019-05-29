@@ -6,6 +6,7 @@ import com.example.lineartest.pages.LoginPage;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -16,7 +17,7 @@ import java.util.List;
  * 聊天
  */
 public class ChatTest extends BaseTest {
-    @BeforeTest
+    @BeforeClass
     public void login(){
         LoginPage login = new LoginPage(getDriver());
         login.login("sienna","123456");

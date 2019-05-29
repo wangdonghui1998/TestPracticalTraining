@@ -35,4 +35,5 @@ public class LoginPage{
         //点击登录按钮
         action.click(btn_login);
     }
+
 }

@@ -5,6 +5,7 @@ import com.example.lineartest.pages.LoginPage;
 import com.example.lineartest.pages.StartClassPage;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ import org.testng.annotations.Test;
  * 开启课程
  */
 public class StartClassTest extends BaseTest {
-    @BeforeTest
+    @BeforeClass
     public void login(){
         LoginPage login = new LoginPage(getDriver());
         login.login("sienna","123456");

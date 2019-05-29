@@ -5,6 +5,7 @@ import com.example.lineartest.pages.AddPlanPage;
 import com.example.lineartest.pages.LoginPage;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ import org.testng.annotations.Test;
  * 添加运动计划
  */
 public class AddPlanTest extends BaseTest {
-    @BeforeTest
+    @BeforeClass
     public void login(){
         LoginPage login = new LoginPage(getDriver());
         login.login("sienna","123456");
@@ -21,6 +22,7 @@ public class AddPlanTest extends BaseTest {
 
     @Test
     public void addPlanSuccess(){
+
         AddPlanPage add = new AddPlanPage(getDriver());
         add.addplan();
         Assert.assertEquals(getDriver().currentActivity(),".MainActivity");

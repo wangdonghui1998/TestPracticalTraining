@@ -16,6 +16,7 @@ public class SettingsPage {
     AndroidDriver driver;
     Actions action;
     IndexPage index;
+    MorePage morePage;
 
    @FindBy(id = "com.example.lx.solarfragment:id/sing1")
    WebElement btn_sing;
@@ -28,10 +29,12 @@ public class SettingsPage {
         PageFactory.initElements(driver,this);
         action = new Actions(driver);
         index = new IndexPage(driver);
+        morePage = new MorePage(driver);
     }
 
     public void settings(){
-        index.click("setting");
+        index.click("more");
+        morePage.click("设置");
         action.click(btn_sing);
         action.click(btn_zhd);
     }

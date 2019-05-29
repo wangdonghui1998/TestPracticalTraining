@@ -27,6 +27,8 @@ public class RegisterTest extends BaseTest {
         reg.register("","15200000000",
                 "111@163.com","000000","000000");
         Assert.assertEquals(getDriver().currentActivity(),".RegisterActivity");
+        //返回首页
+        getDriver().findElementById("com.example.lx.solarfragment:id/btn_back").click();
     }
 
 }

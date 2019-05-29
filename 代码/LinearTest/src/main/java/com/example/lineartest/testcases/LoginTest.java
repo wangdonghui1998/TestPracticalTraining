@@ -24,6 +24,8 @@ public class LoginTest extends BaseTest {
     public void loginFail(){
         LoginPage login = new LoginPage(getDriver());
         login.login("sienna","123");
-        Assert.assertEquals(getDriver().currentActivity(),".MainActivity");
+        Assert.assertEquals(getDriver().currentActivity(),".register.LoginActivity");
+        //返回原始登录界面
+        getDriver().findElementById("me.tictok.linear:id/back").click();
     }
 }

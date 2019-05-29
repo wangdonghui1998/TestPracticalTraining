@@ -4,6 +4,7 @@ import com.example.solartest.base.BaseTest;
 import com.example.solartest.pages.LoginPage;
 import com.example.solartest.pages.TaskPage;
 
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -12,7 +13,7 @@ import org.testng.annotations.Test;
  * 编辑任务
  */
 public class EditTaskTest extends BaseTest {
-    @BeforeTest
+    @BeforeClass
     public void login() throws InterruptedException {
         LoginPage login = new LoginPage(getDriver());
         login.login("jiaxinrui","000000");

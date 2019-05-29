@@ -46,12 +46,12 @@ public class TaskPage {
         PageFactory.initElements(driver,this);
         action = new Actions(driver);
         indexPage = new IndexPage(driver);
+        //点击任务按钮
+        indexPage.click("任务");
     }
 
 
     public void deleteTask(int order){
-        indexPage.click("任务");
-        //选择一个任务
         List<WebElement> e = driver.findElementById("com.example.lx.solarfragment:id/lv_tasks").
                 findElements(By.className("android.widget.LinearLayout"));
         WebElement ele =  e.get(order);
@@ -71,8 +71,6 @@ public class TaskPage {
     }
 
     public void editTask(int order,String taskname,String tasktime){
-        //点击任务按钮
-        indexPage.click("任务");
         //选择一个任务
         List<WebElement> e = driver.findElementById("com.example.lx.solarfragment:id/lv_tasks").
                 findElements(By.className("android.widget.LinearLayout"));
@@ -90,8 +88,6 @@ public class TaskPage {
     }
 
     public void newTask(String taskname,String tasktime){
-        //点击任务按钮
-        indexPage.click("任务");
         //点击加号
         action.click(btn_add);
         //添加任务名称和任务时间
@@ -102,8 +98,6 @@ public class TaskPage {
     }
 
     public void startTask(int order){
-        //点击任务按钮
-        indexPage.click("任务");
         //选择一个任务
         List<WebElement> e = driver.findElementById("com.example.lx.solarfragment:id/lv_tasks").
                 findElements(By.className("android.widget.LinearLayout"));

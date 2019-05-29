@@ -12,6 +12,7 @@ import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
 import static io.appium.java_client.touch.WaitOptions.waitOptions;
 import static io.appium.java_client.touch.offset.ElementOption.element;
 import static io.appium.java_client.touch.offset.PointOption.point;
+import static java.time.Duration.of;
 import static java.time.Duration.ofSeconds;
 
 public class Actions {
@@ -67,9 +68,12 @@ public class Actions {
     }
 
     //点到点之间的拖动
-    public void drop(Point fromPoint , Point toPoint){
-        ta.longPress(point(fromPoint.x, fromPoint.y))
-                .moveTo(point(toPoint.x, toPoint.y))
+    public void drop(int fromPoint_x,int fromPoint_y , int toPoint_x,int toPoint_y){
+        ta.longPress(longPressOptions()
+                .withPosition( PointOption.point(fromPoint_x,fromPoint_y))
+                .withDuration(ofSeconds(2)))
+                .moveTo(PointOption.point(toPoint_x,toPoint_y))
+                .release()
                 .perform();
     }
 }
