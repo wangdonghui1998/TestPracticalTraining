@@ -1,0 +1,25 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'org.testng:testng:6.9.6'
+    implementation files('libs/cglib-nodep-3.2.10.jar')
+    implementation files('libs/commons-io-2.6.jar')
+    implementation files('libs/commons-lang3-3.8.jar')
+    implementation files('libs/java-client-7.0.0.jar')
+    implementation files('libs/selenium-server-standalone-3.141.59.jar')
+    compile 'com.google.guava:guava:23.0'
+    implementation files('libs/mysql-connector-java-5.1.39-bin.jar')
+    implementation files('libs/poi-4.0.0.jar')
+    implementation files('libs/poi-ooxml-4.0.0.jar')
+    implementation files('libs/poi-ooxml-schemas-4.0.0.jar')
+    implementation files('libs/freemarker.jar')
+    implementation files('libs/javax.mail-1.6.2.jar')
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
